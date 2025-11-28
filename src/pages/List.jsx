@@ -67,10 +67,7 @@ function ListPage() {
                 <td className="px-4 py-2 border border-gray-300">
                   <button
                     className="bg-red-500 text-white px-2 py-1 rounded hover:bg-red-600 transition"
-                    onClick={() => handleDelete(tour.id)}
-                  >
-                    Delete
-                  </button>
+                    onClick={() => handleDelete(tour.id)}> Delete</button>
                 </td>
               </tr>
             ))}
