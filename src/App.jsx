@@ -4,6 +4,8 @@ import { Route, Routes } from "react-router-dom";
 import AddPage from "./pages/Add";
 import EditPage from "./pages/Edit";
 import ListPage from "./pages/List";
+import LoginPage from "./pages/Login";
+import RegisterPage from "./pages/Register";
 
 function App() {
   return (
@@ -30,7 +32,7 @@ function App() {
             <Link to="./login" className="hover:text-gray-200">
               Đăng nhập
             </Link>
-            <Link to="#" className="hover:text-gray-200">
+            <Link to="./register" className="hover:text-gray-200">
               Đăng ký
             </Link>
           </div>
@@ -43,9 +45,11 @@ function App() {
         <p className="text-lg text-gray-600">Ứng dụng quản lý dữ liệu</p>
       </div>
       <Routes>
-        <Route path="/List" element={<ListPage />} />
-        <Route path="/Add" element={<AddPage />} />
-        <Route path="/Edit/:id" element={<EditPage />} />
+        <Route path="/list" element={<ListPage />} />
+        <Route path="/add" element={<AddPage />} />
+        <Route path="/edit/:id" element={<EditPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/register" element={<RegisterPage />} />
 
       </Routes>
 

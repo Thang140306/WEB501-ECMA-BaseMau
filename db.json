@@ -11,14 +11,21 @@
       "available": 20
     },
     {
-      "name": "aaaaa",
-      "destination": "fi uh",
-      "duration": "j hgoiru",
-      "price": 11,
-      "image": "gff",
-      "description": "hạ long ngày nămgs và gió",
-      "available": 2,
+      "name": "mj",
+      "destination": "jjjj",
+      "duration": "jjj",
+      "price": 1000,
+      "image": "https://picsum.photos/400/300?random=2",
+      "description": "hihihAHA",
+      "available": 0,
       "id": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "customer1@gmail.com",
+      "password": "$2a$10$N7uDwvJrnIEMzY6/ol8hNes4VQYVFK8NdONCXN4NgHRsLwXWXsvuK",
+      "id": 1
     }
   ]
 }
